@@ -1,0 +1,23 @@
+{
+  "name": "simple-storage2",
+  "version": "1.0.0",
+  "description": "localStorage tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.es6.js -o index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfxmnb/simple-storage2.git"
+  },
+  "keywords": [
+    "localStorage"
+  ],
+  "author": "fanxingzeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zfxmnb/simple-storage2/issues"
+  },
+  "homepage": "https://github.com/zfxmnb/simple-storage2#readme"
+}
