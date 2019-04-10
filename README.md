@@ -1,7 +1,12 @@
 # simple-storage2
 ```js
-import storage from "simple-storage2";
- 
+import Storage from "simple-storage2";
+/**
+ * var storage = Storage('session'); // sessionStorage
+ * or
+ * var storage = Storage || Storage('local'); // localStorage
+ */
+
 /**
  * set item
  * @param {*} key
@@ -13,6 +18,9 @@ storage.set(key, data, extra);
  
 // get item
 storage.get(key);
+
+// get expire
+storage.getExpire(key)
  
 // get all items
 storage.getAll();
